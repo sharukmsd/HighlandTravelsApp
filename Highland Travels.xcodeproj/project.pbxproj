@@ -7,18 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DFA6B976A8C8FBBB53C4CC45 /* Pods_Highland_Travels.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 681499E64F5B047281CDFCF1 /* Pods_Highland_Travels.framework */; };
 		F27D4EBD2CBA66FF00A1EAA5 /* Highland_TravelsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27D4EBC2CBA66FF00A1EAA5 /* Highland_TravelsApp.swift */; };
 		F27D4EBF2CBA66FF00A1EAA5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27D4EBE2CBA66FF00A1EAA5 /* ContentView.swift */; };
 		F27D4EC12CBA670200A1EAA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F27D4EC02CBA670200A1EAA5 /* Assets.xcassets */; };
 		F27D4EC42CBA670200A1EAA5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F27D4EC32CBA670200A1EAA5 /* Preview Assets.xcassets */; };
+		F27D4ECC2CBA699500A1EAA5 /* Color+Extennsion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27D4ECB2CBA699500A1EAA5 /* Color+Extennsion.swift */; };
+		F27D4ECE2CBA6C0700A1EAA5 /* Font+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27D4ECD2CBA6C0700A1EAA5 /* Font+Extension.swift */; };
+		F27D4ED72CBA6D8E00A1EAA5 /* OpenSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F27D4ED12CBA6D8D00A1EAA5 /* OpenSans-Medium.ttf */; };
+		F27D4ED82CBA6D8E00A1EAA5 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F27D4ED22CBA6D8D00A1EAA5 /* OpenSans-ExtraBold.ttf */; };
+		F27D4ED92CBA6D8E00A1EAA5 /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F27D4ED32CBA6D8D00A1EAA5 /* OpenSans-SemiBold.ttf */; };
+		F27D4EDA2CBA6D8E00A1EAA5 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F27D4ED42CBA6D8D00A1EAA5 /* OpenSans-Regular.ttf */; };
+		F27D4EDB2CBA6D8E00A1EAA5 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F27D4ED52CBA6D8E00A1EAA5 /* OpenSans-Light.ttf */; };
+		F27D4EDC2CBA6D8E00A1EAA5 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F27D4ED62CBA6D8E00A1EAA5 /* OpenSans-Bold.ttf */; };
+		F27D4EE12CBA747500A1EAA5 /* Highland-Travels-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F27D4EDF2CBA744700A1EAA5 /* Highland-Travels-Info.plist */; };
+		F27D4EE32CBA75B700A1EAA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F27D4EE22CBA75B700A1EAA5 /* LaunchScreen.storyboard */; };
+		F27D4EE52CBA77AF00A1EAA5 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27D4EE42CBA77AF00A1EAA5 /* LoginView.swift */; };
+		F27D4EE82CBA7CAC00A1EAA5 /* LoginHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27D4EE72CBA7CAC00A1EAA5 /* LoginHeader.swift */; };
+		F27D4EED2CBA8CC800A1EAA5 /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = F27D4EEC2CBA8CC800A1EAA5 /* swiftgen.yml */; };
+		F27D4EF02CBA8E3A00A1EAA5 /* XCAssets+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27D4EEF2CBA8E3A00A1EAA5 /* XCAssets+Generated.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		681499E64F5B047281CDFCF1 /* Pods_Highland_Travels.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Highland_Travels.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2C2124D98CAF2C4FB042436 /* Pods-Highland Travels.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Highland Travels.release.xcconfig"; path = "Target Support Files/Pods-Highland Travels/Pods-Highland Travels.release.xcconfig"; sourceTree = "<group>"; };
+		B4332A5989D122EF63963288 /* Pods-Highland Travels.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Highland Travels.debug.xcconfig"; path = "Target Support Files/Pods-Highland Travels/Pods-Highland Travels.debug.xcconfig"; sourceTree = "<group>"; };
 		F27D4EB92CBA66FF00A1EAA5 /* Highland Travels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Highland Travels.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F27D4EBC2CBA66FF00A1EAA5 /* Highland_TravelsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Highland_TravelsApp.swift; sourceTree = "<group>"; };
 		F27D4EBE2CBA66FF00A1EAA5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F27D4EC02CBA670200A1EAA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F27D4EC32CBA670200A1EAA5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F27D4ECB2CBA699500A1EAA5 /* Color+Extennsion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extennsion.swift"; sourceTree = "<group>"; };
+		F27D4ECD2CBA6C0700A1EAA5 /* Font+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Extension.swift"; sourceTree = "<group>"; };
+		F27D4ED12CBA6D8D00A1EAA5 /* OpenSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Medium.ttf"; sourceTree = "<group>"; };
+		F27D4ED22CBA6D8D00A1EAA5 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		F27D4ED32CBA6D8D00A1EAA5 /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		F27D4ED42CBA6D8D00A1EAA5 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		F27D4ED52CBA6D8E00A1EAA5 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		F27D4ED62CBA6D8E00A1EAA5 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		F27D4EDF2CBA744700A1EAA5 /* Highland-Travels-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Highland-Travels-Info.plist"; sourceTree = "<group>"; };
+		F27D4EE22CBA75B700A1EAA5 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F27D4EE42CBA77AF00A1EAA5 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		F27D4EE72CBA7CAC00A1EAA5 /* LoginHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginHeader.swift; sourceTree = "<group>"; };
+		F27D4EEC2CBA8CC800A1EAA5 /* swiftgen.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
+		F27D4EEF2CBA8E3A00A1EAA5 /* XCAssets+Generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XCAssets+Generated.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +58,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFA6B976A8C8FBBB53C4CC45 /* Pods_Highland_Travels.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C42579BB0EDD77958E60779 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				681499E64F5B047281CDFCF1 /* Pods_Highland_Travels.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F27D4EB02CBA66FF00A1EAA5 = {
 			isa = PBXGroup;
 			children = (
+				F27D4EEC2CBA8CC800A1EAA5 /* swiftgen.yml */,
+				F27D4EE22CBA75B700A1EAA5 /* LaunchScreen.storyboard */,
+				F27D4EDF2CBA744700A1EAA5 /* Highland-Travels-Info.plist */,
+				F27D4ECF2CBA6CD200A1EAA5 /* Shared */,
 				F27D4EBB2CBA66FF00A1EAA5 /* Highland Travels */,
 				F27D4EBA2CBA66FF00A1EAA5 /* Products */,
+				FD0B3C6B2A2E2F07C60CF39D /* Pods */,
+				0C42579BB0EDD77958E60779 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,9 +98,8 @@
 		F27D4EBB2CBA66FF00A1EAA5 /* Highland Travels */ = {
 			isa = PBXGroup;
 			children = (
-				F27D4EBC2CBA66FF00A1EAA5 /* Highland_TravelsApp.swift */,
-				F27D4EBE2CBA66FF00A1EAA5 /* ContentView.swift */,
-				F27D4EC02CBA670200A1EAA5 /* Assets.xcassets */,
+				F27D4EF12CBA8FC700A1EAA5 /* App */,
+				F27D4EE62CBA7C8500A1EAA5 /* Auth */,
 				F27D4EC22CBA670200A1EAA5 /* Preview Content */,
 			);
 			path = "Highland Travels";
@@ -67,6 +113,74 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		F27D4ECA2CBA696000A1EAA5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F27D4ECB2CBA699500A1EAA5 /* Color+Extennsion.swift */,
+				F27D4ECD2CBA6C0700A1EAA5 /* Font+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F27D4ECF2CBA6CD200A1EAA5 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				F27D4EEE2CBA8DCF00A1EAA5 /* Generated */,
+				F27D4EC02CBA670200A1EAA5 /* Assets.xcassets */,
+				F27D4ECA2CBA696000A1EAA5 /* Extensions */,
+				F27D4ED02CBA6CDA00A1EAA5 /* fonts */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		F27D4ED02CBA6CDA00A1EAA5 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F27D4ED62CBA6D8E00A1EAA5 /* OpenSans-Bold.ttf */,
+				F27D4ED22CBA6D8D00A1EAA5 /* OpenSans-ExtraBold.ttf */,
+				F27D4ED52CBA6D8E00A1EAA5 /* OpenSans-Light.ttf */,
+				F27D4ED12CBA6D8D00A1EAA5 /* OpenSans-Medium.ttf */,
+				F27D4ED42CBA6D8D00A1EAA5 /* OpenSans-Regular.ttf */,
+				F27D4ED32CBA6D8D00A1EAA5 /* OpenSans-SemiBold.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		F27D4EE62CBA7C8500A1EAA5 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				F27D4EE42CBA77AF00A1EAA5 /* LoginView.swift */,
+				F27D4EE72CBA7CAC00A1EAA5 /* LoginHeader.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		F27D4EEE2CBA8DCF00A1EAA5 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				F27D4EEF2CBA8E3A00A1EAA5 /* XCAssets+Generated.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		F27D4EF12CBA8FC700A1EAA5 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F27D4EBC2CBA66FF00A1EAA5 /* Highland_TravelsApp.swift */,
+				F27D4EBE2CBA66FF00A1EAA5 /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FD0B3C6B2A2E2F07C60CF39D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B4332A5989D122EF63963288 /* Pods-Highland Travels.debug.xcconfig */,
+				B2C2124D98CAF2C4FB042436 /* Pods-Highland Travels.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,6 +188,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F27D4EC72CBA670200A1EAA5 /* Build configuration list for PBXNativeTarget "Highland Travels" */;
 			buildPhases = (
+				91DA9837C206D5B37D3C1772 /* [CP] Check Pods Manifest.lock */,
+				F27D4EE92CBA862C00A1EAA5 /* SwiftGen */,
 				F27D4EB52CBA66FF00A1EAA5 /* Sources */,
 				F27D4EB62CBA66FF00A1EAA5 /* Frameworks */,
 				F27D4EB72CBA66FF00A1EAA5 /* Resources */,
@@ -125,12 +241,64 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F27D4EE12CBA747500A1EAA5 /* Highland-Travels-Info.plist in Resources */,
+				F27D4ED72CBA6D8E00A1EAA5 /* OpenSans-Medium.ttf in Resources */,
 				F27D4EC42CBA670200A1EAA5 /* Preview Assets.xcassets in Resources */,
+				F27D4EE32CBA75B700A1EAA5 /* LaunchScreen.storyboard in Resources */,
+				F27D4EDC2CBA6D8E00A1EAA5 /* OpenSans-Bold.ttf in Resources */,
+				F27D4EDB2CBA6D8E00A1EAA5 /* OpenSans-Light.ttf in Resources */,
+				F27D4ED92CBA6D8E00A1EAA5 /* OpenSans-SemiBold.ttf in Resources */,
 				F27D4EC12CBA670200A1EAA5 /* Assets.xcassets in Resources */,
+				F27D4EED2CBA8CC800A1EAA5 /* swiftgen.yml in Resources */,
+				F27D4EDA2CBA6D8E00A1EAA5 /* OpenSans-Regular.ttf in Resources */,
+				F27D4ED82CBA6D8E00A1EAA5 /* OpenSans-ExtraBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		91DA9837C206D5B37D3C1772 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Highland Travels-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F27D4EE92CBA862C00A1EAA5 /* SwiftGen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftGen;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [[ -f \"${PODS_ROOT}/SwiftGen/bin/swiftgen\" ]]; then\n  \"${PODS_ROOT}/SwiftGen/bin/swiftgen\"\nelse\n  echo \"warning: SwiftGen is not installed. Run 'pod install --repo-update' to install it.\"\nfi \n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F27D4EB52CBA66FF00A1EAA5 /* Sources */ = {
@@ -139,6 +307,11 @@
 			files = (
 				F27D4EBF2CBA66FF00A1EAA5 /* ContentView.swift in Sources */,
 				F27D4EBD2CBA66FF00A1EAA5 /* Highland_TravelsApp.swift in Sources */,
+				F27D4ECE2CBA6C0700A1EAA5 /* Font+Extension.swift in Sources */,
+				F27D4EE52CBA77AF00A1EAA5 /* LoginView.swift in Sources */,
+				F27D4EE82CBA7CAC00A1EAA5 /* LoginHeader.swift in Sources */,
+				F27D4EF02CBA8E3A00A1EAA5 /* XCAssets+Generated.swift in Sources */,
+				F27D4ECC2CBA699500A1EAA5 /* Color+Extennsion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,19 +439,25 @@
 		};
 		F27D4EC82CBA670200A1EAA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4332A5989D122EF63963288 /* Pods-Highland Travels.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Highland Travels/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "Highland\\ Travels/Preview\\ Content";
+				DEVELOPMENT_TEAM = R48SV542U7;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Highland-Travels-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,19 +473,25 @@
 		};
 		F27D4EC92CBA670200A1EAA5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2C2124D98CAF2C4FB042436 /* Pods-Highland Travels.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Highland Travels/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "Highland\\ Travels/Preview\\ Content";
+				DEVELOPMENT_TEAM = R48SV542U7;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Highland-Travels-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
