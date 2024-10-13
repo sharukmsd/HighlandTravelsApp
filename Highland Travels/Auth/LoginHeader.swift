@@ -12,12 +12,12 @@ struct LoginHeader: View {
         GeometryReader { proxy in
             VStack (alignment: .leading) {
                 ZStack (alignment: .bottom) {
-                    Image(Asset.loginHeader.name)
+                    Image(.loginHeader)
                         .resizable()
                         .aspectRatio(contentMode: .fill)
                         .frame(maxWidth: proxy.size.width, maxHeight: proxy.size.height * 0.25)
                     
-                    Image(Asset.bottomFadeImage.name)
+                    Image(.bottomFade)
                         .resizable()
                         .aspectRatio(contentMode: .fill)
                         .frame(maxWidth: proxy.size.width, maxHeight: (proxy.size.height * 0.25)/2)
