@@ -66,7 +66,7 @@ extension Text {
         return self.font(.customFont(.bold, 10))
     }
     func buttonText() -> Text {
-        return self.font(.customFont(.bold, 10))
+        return self.font(.customFont(.bold, 16))
     }
     func buttonTextStyle() -> Text {
         return self.font(.customFont(.bold, 16)).underline()

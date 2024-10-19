@@ -11,7 +11,8 @@ import SwiftUI
 struct Highland_TravelsApp: App {
     var body: some Scene {
         WindowGroup {
-            LoginView()
+            AuthView(vm: AuthViewModel())
+                .preferredColorScheme(.light)
         }
     }
 }

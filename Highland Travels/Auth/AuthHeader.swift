@@ -1,5 +1,5 @@
 //
-//  LoginHeader.swift
+//  AuthHeader.swift
 //  Highland Travels
 //
 //  Created by Shahrukh on 12/10/2024.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct LoginHeader: View {
+struct AuthHeader: View {
     var body: some View {
         GeometryReader { proxy in
             VStack (alignment: .leading) {
@@ -31,5 +31,5 @@ struct LoginHeader: View {
 }
 
 #Preview {
-    LoginHeader()
+    AuthHeader()
 }

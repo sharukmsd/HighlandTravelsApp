@@ -22,10 +22,14 @@
 		F27D4EDC2CBA6D8E00A1EAA5 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F27D4ED62CBA6D8E00A1EAA5 /* OpenSans-Bold.ttf */; };
 		F27D4EE12CBA747500A1EAA5 /* Highland-Travels-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F27D4EDF2CBA744700A1EAA5 /* Highland-Travels-Info.plist */; };
 		F27D4EE32CBA75B700A1EAA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F27D4EE22CBA75B700A1EAA5 /* LaunchScreen.storyboard */; };
-		F27D4EE52CBA77AF00A1EAA5 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27D4EE42CBA77AF00A1EAA5 /* LoginView.swift */; };
-		F27D4EE82CBA7CAC00A1EAA5 /* LoginHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27D4EE72CBA7CAC00A1EAA5 /* LoginHeader.swift */; };
+		F27D4EE82CBA7CAC00A1EAA5 /* AuthHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27D4EE72CBA7CAC00A1EAA5 /* AuthHeader.swift */; };
 		F27D4EED2CBA8CC800A1EAA5 /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = F27D4EEC2CBA8CC800A1EAA5 /* swiftgen.yml */; };
 		F27D4EF02CBA8E3A00A1EAA5 /* XCAssets+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27D4EEF2CBA8E3A00A1EAA5 /* XCAssets+Generated.swift */; };
+		F29D9F822CC39C310034D7BB /* InputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29D9F812CC39C310034D7BB /* InputField.swift */; };
+		F29D9F842CC39D580034D7BB /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29D9F832CC39D580034D7BB /* View+Extension.swift */; };
+		F29D9F862CC3A78C0034D7BB /* HTButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29D9F852CC3A78C0034D7BB /* HTButton.swift */; };
+		F29D9F882CC3B86F0034D7BB /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29D9F872CC3B86F0034D7BB /* AuthView.swift */; };
+		F29D9F8C2CC3B9EF0034D7BB /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29D9F8B2CC3B9EF0034D7BB /* AuthViewModel.swift */; };
 		F2F523312CBBC458007A074D /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F523302CBBC458007A074D /* String+Extension.swift */; };
 		F2F523332CBBC4D6007A074D /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F523322CBBC4D6007A074D /* UIApplication+Extension.swift */; };
 		F2F5233A2CBBC8E3007A074D /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = F2F523392CBBC8E3007A074D /* Localizable.xcstrings */; };
@@ -50,10 +54,14 @@
 		F27D4ED62CBA6D8E00A1EAA5 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
 		F27D4EDF2CBA744700A1EAA5 /* Highland-Travels-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Highland-Travels-Info.plist"; sourceTree = "<group>"; };
 		F27D4EE22CBA75B700A1EAA5 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F27D4EE42CBA77AF00A1EAA5 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		F27D4EE72CBA7CAC00A1EAA5 /* LoginHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginHeader.swift; sourceTree = "<group>"; };
+		F27D4EE72CBA7CAC00A1EAA5 /* AuthHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthHeader.swift; sourceTree = "<group>"; };
 		F27D4EEC2CBA8CC800A1EAA5 /* swiftgen.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
 		F27D4EEF2CBA8E3A00A1EAA5 /* XCAssets+Generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XCAssets+Generated.swift"; sourceTree = "<group>"; };
+		F29D9F812CC39C310034D7BB /* InputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputField.swift; sourceTree = "<group>"; };
+		F29D9F832CC39D580034D7BB /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		F29D9F852CC3A78C0034D7BB /* HTButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTButton.swift; sourceTree = "<group>"; };
+		F29D9F872CC3B86F0034D7BB /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		F29D9F8B2CC3B9EF0034D7BB /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		F2F523302CBBC458007A074D /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		F2F523322CBBC4D6007A074D /* UIApplication+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
 		F2F523392CBBC8E3007A074D /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
@@ -105,6 +113,7 @@
 		F27D4EBB2CBA66FF00A1EAA5 /* Highland Travels */ = {
 			isa = PBXGroup;
 			children = (
+				F29D9F7F2CC39C050034D7BB /* Common */,
 				F27D4EF12CBA8FC700A1EAA5 /* App */,
 				F27D4EE62CBA7C8500A1EAA5 /* Auth */,
 				F27D4EC22CBA670200A1EAA5 /* Preview Content */,
@@ -127,6 +136,7 @@
 				F27D4ECD2CBA6C0700A1EAA5 /* Font+Extension.swift */,
 				F2F523302CBBC458007A074D /* String+Extension.swift */,
 				F2F523322CBBC4D6007A074D /* UIApplication+Extension.swift */,
+				F29D9F832CC39D580034D7BB /* View+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -158,8 +168,9 @@
 		F27D4EE62CBA7C8500A1EAA5 /* Auth */ = {
 			isa = PBXGroup;
 			children = (
-				F27D4EE42CBA77AF00A1EAA5 /* LoginView.swift */,
-				F27D4EE72CBA7CAC00A1EAA5 /* LoginHeader.swift */,
+				F29D9F872CC3B86F0034D7BB /* AuthView.swift */,
+				F29D9F8B2CC3B9EF0034D7BB /* AuthViewModel.swift */,
+				F27D4EE72CBA7CAC00A1EAA5 /* AuthHeader.swift */,
 			);
 			path = Auth;
 			sourceTree = "<group>";
@@ -179,6 +190,15 @@
 				F27D4EBE2CBA66FF00A1EAA5 /* ContentView.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		F29D9F7F2CC39C050034D7BB /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F29D9F812CC39C310034D7BB /* InputField.swift */,
+				F29D9F852CC3A78C0034D7BB /* HTButton.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 		FD0B3C6B2A2E2F07C60CF39D /* Pods */ = {
@@ -319,10 +339,14 @@
 				F2F523312CBBC458007A074D /* String+Extension.swift in Sources */,
 				F27D4EBF2CBA66FF00A1EAA5 /* ContentView.swift in Sources */,
 				F27D4EBD2CBA66FF00A1EAA5 /* Highland_TravelsApp.swift in Sources */,
+				F29D9F882CC3B86F0034D7BB /* AuthView.swift in Sources */,
+				F29D9F8C2CC3B9EF0034D7BB /* AuthViewModel.swift in Sources */,
+				F29D9F822CC39C310034D7BB /* InputField.swift in Sources */,
 				F27D4ECE2CBA6C0700A1EAA5 /* Font+Extension.swift in Sources */,
 				F2F523332CBBC4D6007A074D /* UIApplication+Extension.swift in Sources */,
-				F27D4EE52CBA77AF00A1EAA5 /* LoginView.swift in Sources */,
-				F27D4EE82CBA7CAC00A1EAA5 /* LoginHeader.swift in Sources */,
+				F29D9F862CC3A78C0034D7BB /* HTButton.swift in Sources */,
+				F29D9F842CC39D580034D7BB /* View+Extension.swift in Sources */,
+				F27D4EE82CBA7CAC00A1EAA5 /* AuthHeader.swift in Sources */,
 				F27D4EF02CBA8E3A00A1EAA5 /* XCAssets+Generated.swift in Sources */,
 				F27D4ECC2CBA699500A1EAA5 /* Color+Extennsion.swift in Sources */,
 			);
