@@ -8,6 +8,7 @@
 import Foundation
 
 enum AuthViewType {
+    
     case login
     case signup
     
