@@ -12,6 +12,10 @@ struct HomeDetail: View {
 
     var body: some View {
         VStack {
+            Text("Go forward")
+                .onTapGesture {
+                    navigate(.home(.list))
+                }
             Text("Go back")
                 .onTapGesture {
                     navigate.back()

@@ -12,17 +12,9 @@ struct ExploreNavigationStack: View {
     @EnvironmentObject private var router: Router
 
     var body: some View {
-        NavigationStack(path: $router.exploreRoutes) {
-            router.view(for: .explore(.list))
-                .navigationDestination(for: Route.self) { route in
-                    router.view(for: route)
-                }
-                .fullScreenCover(isPresented: $router.isFullScreenCoverPresented) {
-                    if let fullScreenRoute = router.fullScreenRoute {
-                        router.view(for: fullScreenRoute)
-                    }
-                }
-        }
+        GenericNavigationStack(routes: $router.exploreRoutes,
+                               rootRoute: .explore(.list),
+                               destinationType: ExploreRoute.self)
     }
 }
 

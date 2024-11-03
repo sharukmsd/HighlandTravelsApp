@@ -21,6 +21,7 @@
 		A0C2D4F52CD792CF00D6C682 /* ProfileRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C2D4F42CD792CF00D6C682 /* ProfileRoute.swift */; };
 		A0C2D4F72CD7936B00D6C682 /* ProfileNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C2D4F62CD7936B00D6C682 /* ProfileNavigationStack.swift */; };
 		A0C2D4F92CD798A100D6C682 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C2D4F82CD798A100D6C682 /* SessionManager.swift */; };
+		A0C2D4FB2CD7A03900D6C682 /* GenericNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C2D4FA2CD7A03900D6C682 /* GenericNavigationStack.swift */; };
 		DFA6B976A8C8FBBB53C4CC45 /* Pods_Highland_Travels.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 681499E64F5B047281CDFCF1 /* Pods_Highland_Travels.framework */; };
 		F27D4EBD2CBA66FF00A1EAA5 /* Highland_TravelsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27D4EBC2CBA66FF00A1EAA5 /* Highland_TravelsApp.swift */; };
 		F27D4EBF2CBA66FF00A1EAA5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27D4EBE2CBA66FF00A1EAA5 /* ContentView.swift */; };
@@ -65,6 +66,7 @@
 		A0C2D4F42CD792CF00D6C682 /* ProfileRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileRoute.swift; sourceTree = "<group>"; };
 		A0C2D4F62CD7936B00D6C682 /* ProfileNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileNavigationStack.swift; sourceTree = "<group>"; };
 		A0C2D4F82CD798A100D6C682 /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		A0C2D4FA2CD7A03900D6C682 /* GenericNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericNavigationStack.swift; sourceTree = "<group>"; };
 		B2C2124D98CAF2C4FB042436 /* Pods-Highland Travels.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Highland Travels.release.xcconfig"; path = "Target Support Files/Pods-Highland Travels/Pods-Highland Travels.release.xcconfig"; sourceTree = "<group>"; };
 		B4332A5989D122EF63963288 /* Pods-Highland Travels.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Highland Travels.debug.xcconfig"; path = "Target Support Files/Pods-Highland Travels/Pods-Highland Travels.debug.xcconfig"; sourceTree = "<group>"; };
 		F27D4EB92CBA66FF00A1EAA5 /* Highland Travels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Highland Travels.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,6 +120,7 @@
 		A0C2D4D62CD76CFB00D6C682 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				A0C2D4FE2CD7A1CB00D6C682 /* Profile */,
 				A0C2D4D72CD76E2E00D6C682 /* Home */,
 				F27D4EE62CBA7C8500A1EAA5 /* Auth */,
 				F27D4EF12CBA8FC700A1EAA5 /* App */,
@@ -163,8 +166,16 @@
 				A0C2D4E42CD778A700D6C682 /* ExploreNavigationStack.swift */,
 				A0C2D4F02CD7922C00D6C682 /* NotificationsNavigationStack.swift */,
 				A0C2D4F62CD7936B00D6C682 /* ProfileNavigationStack.swift */,
+				A0C2D4FA2CD7A03900D6C682 /* GenericNavigationStack.swift */,
 			);
 			path = Stacks;
+			sourceTree = "<group>";
+		};
+		A0C2D4FE2CD7A1CB00D6C682 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 		F27D4EB02CBA66FF00A1EAA5 = {
@@ -444,6 +455,7 @@
 				F27D4EE82CBA7CAC00A1EAA5 /* AuthHeader.swift in Sources */,
 				F27D4EF02CBA8E3A00A1EAA5 /* XCAssets+Generated.swift in Sources */,
 				A0C2D4F12CD7922C00D6C682 /* NotificationsNavigationStack.swift in Sources */,
+				A0C2D4FB2CD7A03900D6C682 /* GenericNavigationStack.swift in Sources */,
 				F27D4ECC2CBA699500A1EAA5 /* Color+Extennsion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
