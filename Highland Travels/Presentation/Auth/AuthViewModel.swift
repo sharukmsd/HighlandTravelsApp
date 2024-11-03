@@ -47,6 +47,7 @@ protocol AuthViewModelType: ObservableObject {
     var inputPassword: String { get set }
     var fieldInfo: (String?, String?, String?) { get }
     var isValid: Bool { get }
+    var isLoggedIn: Bool { get }
     func questionTapped()
     func didTapNext()
 }
@@ -59,6 +60,7 @@ class AuthViewModel: AuthViewModelType {
     @Published var viewType: AuthViewType = .login
     @Published var fieldInfo: (String?, String?, String?) = (nil, nil, nil)
     @Published var isValid: Bool = false
+    @Published var isLoggedIn: Bool = false
     @Published var inputUsername: String = "" {
         didSet {
             isValidUsername = !inputUsername.isEmpty
@@ -104,6 +106,7 @@ class AuthViewModel: AuthViewModelType {
     
     func didTapNext() {
         guard isValidFrom() else { return }
+        isLoggedIn = true
     }
 }
 

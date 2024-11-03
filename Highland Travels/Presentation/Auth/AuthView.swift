@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct AuthView<T>: View where T: AuthViewModelType {
+    @EnvironmentObject private var session: SessionManager
     
     @StateObject var vm: T
     
@@ -98,6 +99,11 @@ struct AuthView<T>: View where T: AuthViewModelType {
                 .animation(.spring(), value: vm.viewType)
             }
             .background(AuthHeader())
+        }
+        .onChange(of: vm.isLoggedIn) { isLoggedIn in
+            if isLoggedIn {
+                session.login()
+            }
         }
     }
 }

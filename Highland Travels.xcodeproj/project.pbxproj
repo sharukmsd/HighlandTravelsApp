@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A0C2D4D92CD76E5900D6C682 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C2D4D82CD76E5900D6C682 /* MainTabView.swift */; };
+		A0C2D4DD2CD772DB00D6C682 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C2D4DC2CD772DB00D6C682 /* Router.swift */; };
+		A0C2D4DF2CD7754F00D6C682 /* HomeNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C2D4DE2CD7754F00D6C682 /* HomeNavigationStack.swift */; };
+		A0C2D4E12CD7767D00D6C682 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C2D4E02CD7767D00D6C682 /* HomeView.swift */; };
+		A0C2D4E32CD776DA00D6C682 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C2D4E22CD776DA00D6C682 /* Route.swift */; };
+		A0C2D4E52CD778A700D6C682 /* ExploreNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C2D4E42CD778A700D6C682 /* ExploreNavigationStack.swift */; };
+		A0C2D4E72CD77C9000D6C682 /* HomeRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C2D4E62CD77C9000D6C682 /* HomeRoute.swift */; };
+		A0C2D4E92CD77CB100D6C682 /* ExploreRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C2D4E82CD77CB100D6C682 /* ExploreRoute.swift */; };
+		A0C2D4EF2CD789D700D6C682 /* HomeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C2D4EE2CD789D700D6C682 /* HomeDetail.swift */; };
+		A0C2D4F12CD7922C00D6C682 /* NotificationsNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C2D4F02CD7922C00D6C682 /* NotificationsNavigationStack.swift */; };
+		A0C2D4F32CD7928E00D6C682 /* NotificationRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C2D4F22CD7928E00D6C682 /* NotificationRoute.swift */; };
+		A0C2D4F52CD792CF00D6C682 /* ProfileRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C2D4F42CD792CF00D6C682 /* ProfileRoute.swift */; };
+		A0C2D4F72CD7936B00D6C682 /* ProfileNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C2D4F62CD7936B00D6C682 /* ProfileNavigationStack.swift */; };
+		A0C2D4F92CD798A100D6C682 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C2D4F82CD798A100D6C682 /* SessionManager.swift */; };
 		DFA6B976A8C8FBBB53C4CC45 /* Pods_Highland_Travels.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 681499E64F5B047281CDFCF1 /* Pods_Highland_Travels.framework */; };
 		F27D4EBD2CBA66FF00A1EAA5 /* Highland_TravelsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27D4EBC2CBA66FF00A1EAA5 /* Highland_TravelsApp.swift */; };
 		F27D4EBF2CBA66FF00A1EAA5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27D4EBE2CBA66FF00A1EAA5 /* ContentView.swift */; };
@@ -37,6 +51,20 @@
 
 /* Begin PBXFileReference section */
 		681499E64F5B047281CDFCF1 /* Pods_Highland_Travels.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Highland_Travels.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0C2D4D82CD76E5900D6C682 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		A0C2D4DC2CD772DB00D6C682 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		A0C2D4DE2CD7754F00D6C682 /* HomeNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNavigationStack.swift; sourceTree = "<group>"; };
+		A0C2D4E02CD7767D00D6C682 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A0C2D4E22CD776DA00D6C682 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		A0C2D4E42CD778A700D6C682 /* ExploreNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreNavigationStack.swift; sourceTree = "<group>"; };
+		A0C2D4E62CD77C9000D6C682 /* HomeRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRoute.swift; sourceTree = "<group>"; };
+		A0C2D4E82CD77CB100D6C682 /* ExploreRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreRoute.swift; sourceTree = "<group>"; };
+		A0C2D4EE2CD789D700D6C682 /* HomeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDetail.swift; sourceTree = "<group>"; };
+		A0C2D4F02CD7922C00D6C682 /* NotificationsNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsNavigationStack.swift; sourceTree = "<group>"; };
+		A0C2D4F22CD7928E00D6C682 /* NotificationRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationRoute.swift; sourceTree = "<group>"; };
+		A0C2D4F42CD792CF00D6C682 /* ProfileRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileRoute.swift; sourceTree = "<group>"; };
+		A0C2D4F62CD7936B00D6C682 /* ProfileNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileNavigationStack.swift; sourceTree = "<group>"; };
+		A0C2D4F82CD798A100D6C682 /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
 		B2C2124D98CAF2C4FB042436 /* Pods-Highland Travels.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Highland Travels.release.xcconfig"; path = "Target Support Files/Pods-Highland Travels/Pods-Highland Travels.release.xcconfig"; sourceTree = "<group>"; };
 		B4332A5989D122EF63963288 /* Pods-Highland Travels.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Highland Travels.debug.xcconfig"; path = "Target Support Files/Pods-Highland Travels/Pods-Highland Travels.debug.xcconfig"; sourceTree = "<group>"; };
 		F27D4EB92CBA66FF00A1EAA5 /* Highland Travels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Highland Travels.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,6 +115,58 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		A0C2D4D62CD76CFB00D6C682 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				A0C2D4D72CD76E2E00D6C682 /* Home */,
+				F27D4EE62CBA7C8500A1EAA5 /* Auth */,
+				F27D4EF12CBA8FC700A1EAA5 /* App */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		A0C2D4D72CD76E2E00D6C682 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A0C2D4E02CD7767D00D6C682 /* HomeView.swift */,
+				A0C2D4EE2CD789D700D6C682 /* HomeDetail.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A0C2D4DB2CD772B400D6C682 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				A0C2D4EB2CD77DDE00D6C682 /* Stacks */,
+				A0C2D4EA2CD77DCC00D6C682 /* Routes */,
+				A0C2D4DC2CD772DB00D6C682 /* Router.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		A0C2D4EA2CD77DCC00D6C682 /* Routes */ = {
+			isa = PBXGroup;
+			children = (
+				A0C2D4E22CD776DA00D6C682 /* Route.swift */,
+				A0C2D4E62CD77C9000D6C682 /* HomeRoute.swift */,
+				A0C2D4E82CD77CB100D6C682 /* ExploreRoute.swift */,
+				A0C2D4F22CD7928E00D6C682 /* NotificationRoute.swift */,
+				A0C2D4F42CD792CF00D6C682 /* ProfileRoute.swift */,
+			);
+			path = Routes;
+			sourceTree = "<group>";
+		};
+		A0C2D4EB2CD77DDE00D6C682 /* Stacks */ = {
+			isa = PBXGroup;
+			children = (
+				A0C2D4DE2CD7754F00D6C682 /* HomeNavigationStack.swift */,
+				A0C2D4E42CD778A700D6C682 /* ExploreNavigationStack.swift */,
+				A0C2D4F02CD7922C00D6C682 /* NotificationsNavigationStack.swift */,
+				A0C2D4F62CD7936B00D6C682 /* ProfileNavigationStack.swift */,
+			);
+			path = Stacks;
+			sourceTree = "<group>";
+		};
 		F27D4EB02CBA66FF00A1EAA5 = {
 			isa = PBXGroup;
 			children = (
@@ -113,10 +193,10 @@
 		F27D4EBB2CBA66FF00A1EAA5 /* Highland Travels */ = {
 			isa = PBXGroup;
 			children = (
-				F29D9F7F2CC39C050034D7BB /* Common */,
-				F27D4EF12CBA8FC700A1EAA5 /* App */,
-				F27D4EE62CBA7C8500A1EAA5 /* Auth */,
+				A0C2D4DB2CD772B400D6C682 /* Navigation */,
+				A0C2D4D62CD76CFB00D6C682 /* Presentation */,
 				F27D4EC22CBA670200A1EAA5 /* Preview Content */,
+				F29D9F7F2CC39C050034D7BB /* Common */,
 			);
 			path = "Highland Travels";
 			sourceTree = "<group>";
@@ -188,6 +268,8 @@
 			children = (
 				F27D4EBC2CBA66FF00A1EAA5 /* Highland_TravelsApp.swift */,
 				F27D4EBE2CBA66FF00A1EAA5 /* ContentView.swift */,
+				A0C2D4D82CD76E5900D6C682 /* MainTabView.swift */,
+				A0C2D4F82CD798A100D6C682 /* SessionManager.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -336,18 +418,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0C2D4F32CD7928E00D6C682 /* NotificationRoute.swift in Sources */,
 				F2F523312CBBC458007A074D /* String+Extension.swift in Sources */,
 				F27D4EBF2CBA66FF00A1EAA5 /* ContentView.swift in Sources */,
+				A0C2D4E92CD77CB100D6C682 /* ExploreRoute.swift in Sources */,
 				F27D4EBD2CBA66FF00A1EAA5 /* Highland_TravelsApp.swift in Sources */,
+				A0C2D4DF2CD7754F00D6C682 /* HomeNavigationStack.swift in Sources */,
+				A0C2D4E52CD778A700D6C682 /* ExploreNavigationStack.swift in Sources */,
 				F29D9F882CC3B86F0034D7BB /* AuthView.swift in Sources */,
+				A0C2D4E12CD7767D00D6C682 /* HomeView.swift in Sources */,
+				A0C2D4F52CD792CF00D6C682 /* ProfileRoute.swift in Sources */,
+				A0C2D4D92CD76E5900D6C682 /* MainTabView.swift in Sources */,
+				A0C2D4F92CD798A100D6C682 /* SessionManager.swift in Sources */,
 				F29D9F8C2CC3B9EF0034D7BB /* AuthViewModel.swift in Sources */,
+				A0C2D4F72CD7936B00D6C682 /* ProfileNavigationStack.swift in Sources */,
 				F29D9F822CC39C310034D7BB /* InputField.swift in Sources */,
+				A0C2D4E72CD77C9000D6C682 /* HomeRoute.swift in Sources */,
+				A0C2D4E32CD776DA00D6C682 /* Route.swift in Sources */,
+				A0C2D4EF2CD789D700D6C682 /* HomeDetail.swift in Sources */,
+				A0C2D4DD2CD772DB00D6C682 /* Router.swift in Sources */,
 				F27D4ECE2CBA6C0700A1EAA5 /* Font+Extension.swift in Sources */,
 				F2F523332CBBC4D6007A074D /* UIApplication+Extension.swift in Sources */,
 				F29D9F862CC3A78C0034D7BB /* HTButton.swift in Sources */,
 				F29D9F842CC39D580034D7BB /* View+Extension.swift in Sources */,
 				F27D4EE82CBA7CAC00A1EAA5 /* AuthHeader.swift in Sources */,
 				F27D4EF02CBA8E3A00A1EAA5 /* XCAssets+Generated.swift in Sources */,
+				A0C2D4F12CD7922C00D6C682 /* NotificationsNavigationStack.swift in Sources */,
 				F27D4ECC2CBA699500A1EAA5 /* Color+Extennsion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -494,7 +590,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -528,7 +624,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

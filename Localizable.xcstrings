@@ -1,10 +1,23 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "Detail Explore" : {
+
+    },
+    "Detail Notification" : {
+
+    },
     "Forgot Password?" : {
 
     },
+    "Go back" : {
+
+    },
+    "Go to detail" : {
+
+    },
     "Hello, world!" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -19,6 +32,12 @@
           }
         }
       }
+    },
+    "List Explore" : {
+
+    },
+    "List Notifications" : {
+
     },
     "LOGIN" : {
       "extractionState" : "stale",
@@ -38,6 +57,15 @@
       }
     },
     "OR" : {
+
+    },
+    "Pop to root" : {
+
+    },
+    "Present full screen cover" : {
+
+    },
+    "Profile Detail" : {
 
     }
   },
