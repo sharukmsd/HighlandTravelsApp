@@ -55,6 +55,8 @@ struct MainTabView: View {
                     .tag(tab as TabItem)
                     .tabItem {
                         tab.icon
+                            .renderingMode(.template)
+                            .foregroundStyle(router.selectedTab == tab ? Color.primary : Color.subtleText)
                     }
             }
         }

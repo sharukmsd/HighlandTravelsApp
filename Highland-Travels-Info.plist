@@ -9,7 +9,7 @@
 		<string>fonts/OpenSans-Light</string>
 		<string>fonts/OpenSans-Medium</string>
 		<string>fonts/OpenSans-Regular</string>
-		<string>fonts/OpenSans-SemiBold</string>
+		<string>shared/fonts/OpenSans-SemiBold.ttf</string>
 	</array>
 </dict>
 </plist>

@@ -77,7 +77,7 @@ struct AuthView<T>: View where T: AuthViewModelType {
                              icon: Image(.iconGoogle),
                              type: .secondary,
                              onTap: {
-                        
+                        session.login()
                     })
                     
                     HStack {
@@ -88,7 +88,7 @@ struct AuthView<T>: View where T: AuthViewModelType {
                             vm.questionTapped()
                         } label: {
                             Text (vm.viewType.questionText.1)
-                                .buttonTextStyle()
+                                .buttonText()
                                 .foregroundStyle(Asset.secondary.swiftUIColor)
                         }
                     }

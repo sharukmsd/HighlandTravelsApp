@@ -95,7 +95,7 @@ struct TextInputModifier: ViewModifier {
     func body(content: Content) -> some View {
         content
             .textFieldStyle(.plain)
-            .font(.customFont(.regular, 16))
+            .font(.appBody)
             .foregroundStyle(Color.text)
             .keyboardType(type)
     }

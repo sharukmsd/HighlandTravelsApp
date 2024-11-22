@@ -185,7 +185,7 @@
 				F27D4EEC2CBA8CC800A1EAA5 /* swiftgen.yml */,
 				F27D4EE22CBA75B700A1EAA5 /* LaunchScreen.storyboard */,
 				F27D4EDF2CBA744700A1EAA5 /* Highland-Travels-Info.plist */,
-				F27D4ECF2CBA6CD200A1EAA5 /* Shared */,
+				F27D4ECF2CBA6CD200A1EAA5 /* shared */,
 				F27D4EBB2CBA66FF00A1EAA5 /* Highland Travels */,
 				F27D4EBA2CBA66FF00A1EAA5 /* Products */,
 				FD0B3C6B2A2E2F07C60CF39D /* Pods */,
@@ -232,7 +232,7 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		F27D4ECF2CBA6CD200A1EAA5 /* Shared */ = {
+		F27D4ECF2CBA6CD200A1EAA5 /* shared */ = {
 			isa = PBXGroup;
 			children = (
 				F27D4EEE2CBA8DCF00A1EAA5 /* Generated */,
@@ -240,7 +240,7 @@
 				F27D4ECA2CBA696000A1EAA5 /* Extensions */,
 				F27D4ED02CBA6CDA00A1EAA5 /* fonts */,
 			);
-			path = Shared;
+			path = shared;
 			sourceTree = "<group>";
 		};
 		F27D4ED02CBA6CDA00A1EAA5 /* fonts */ = {
