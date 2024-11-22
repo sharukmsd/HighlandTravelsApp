@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 63;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -117,10 +117,10 @@
 		A0C2D4D62CD76CFB00D6C682 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
-				A0C2D4FE2CD7A1CB00D6C682 /* Profile */,
-				A0C2D4D72CD76E2E00D6C682 /* HomeView */,
-				F27D4EE62CBA7C8500A1EAA5 /* Auth */,
 				F27D4EF12CBA8FC700A1EAA5 /* App */,
+				F27D4EE62CBA7C8500A1EAA5 /* Auth */,
+				A0C2D4D72CD76E2E00D6C682 /* HomeView */,
+				A0C2D4FE2CD7A1CB00D6C682 /* Profile */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -198,11 +198,11 @@
 		F27D4EBB2CBA66FF00A1EAA5 /* Highland Travels */ = {
 			isa = PBXGroup;
 			children = (
+				F29D9F7F2CC39C050034D7BB /* Common */,
 				A005E9A32CF12D420093E76C /* Models */,
 				A0C2D4DB2CD772B400D6C682 /* Navigation */,
 				A0C2D4D62CD76CFB00D6C682 /* Presentation */,
 				F27D4EC22CBA670200A1EAA5 /* Preview Content */,
-				F29D9F7F2CC39C050034D7BB /* Common */,
 			);
 			path = "Highland Travels";
 			sourceTree = "<group>";
@@ -317,7 +317,7 @@
 				};
 			};
 			buildConfigurationList = F27D4EB42CBA66FF00A1EAA5 /* Build configuration list for PBXProject "Highland Travels" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -326,6 +326,7 @@
 				es,
 			);
 			mainGroup = F27D4EB02CBA66FF00A1EAA5;
+			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				A005E9A62CF12E450093E76C /* XCRemoteSwiftPackageReference "asyncImage" */,
 			);
