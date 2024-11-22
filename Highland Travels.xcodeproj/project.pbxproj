@@ -7,22 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A005E9A22CF12CC80093E76C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A005E9A12CF12CC80093E76C /* HomeView.swift */; };
+		A005E9A52CF12D540093E76C /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A005E9A42CF12D4D0093E76C /* UserModel.swift */; };
+		A005E9A82CF12E460093E76C /* asnycImage in Frameworks */ = {isa = PBXBuildFile; productRef = A005E9A72CF12E460093E76C /* asnycImage */; };
+		A005E9AA2CF135F20093E76C /* PillButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A005E9A92CF135F20093E76C /* PillButton.swift */; };
+		A07BB4732CF12BB000FBC7EB /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07BB4722CF12BB000FBC7EB /* HomeViewModel.swift */; };
 		A0C2D4D92CD76E5900D6C682 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C2D4D82CD76E5900D6C682 /* MainTabView.swift */; };
 		A0C2D4DD2CD772DB00D6C682 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C2D4DC2CD772DB00D6C682 /* Router.swift */; };
 		A0C2D4DF2CD7754F00D6C682 /* HomeNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C2D4DE2CD7754F00D6C682 /* HomeNavigationStack.swift */; };
-		A0C2D4E12CD7767D00D6C682 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C2D4E02CD7767D00D6C682 /* HomeView.swift */; };
 		A0C2D4E32CD776DA00D6C682 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C2D4E22CD776DA00D6C682 /* Route.swift */; };
 		A0C2D4E52CD778A700D6C682 /* ExploreNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C2D4E42CD778A700D6C682 /* ExploreNavigationStack.swift */; };
 		A0C2D4E72CD77C9000D6C682 /* HomeRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C2D4E62CD77C9000D6C682 /* HomeRoute.swift */; };
 		A0C2D4E92CD77CB100D6C682 /* ExploreRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C2D4E82CD77CB100D6C682 /* ExploreRoute.swift */; };
-		A0C2D4EF2CD789D700D6C682 /* HomeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C2D4EE2CD789D700D6C682 /* HomeDetail.swift */; };
 		A0C2D4F12CD7922C00D6C682 /* NotificationsNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C2D4F02CD7922C00D6C682 /* NotificationsNavigationStack.swift */; };
 		A0C2D4F32CD7928E00D6C682 /* NotificationRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C2D4F22CD7928E00D6C682 /* NotificationRoute.swift */; };
 		A0C2D4F52CD792CF00D6C682 /* ProfileRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C2D4F42CD792CF00D6C682 /* ProfileRoute.swift */; };
 		A0C2D4F72CD7936B00D6C682 /* ProfileNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C2D4F62CD7936B00D6C682 /* ProfileNavigationStack.swift */; };
 		A0C2D4F92CD798A100D6C682 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C2D4F82CD798A100D6C682 /* SessionManager.swift */; };
 		A0C2D4FB2CD7A03900D6C682 /* GenericNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C2D4FA2CD7A03900D6C682 /* GenericNavigationStack.swift */; };
-		DFA6B976A8C8FBBB53C4CC45 /* Pods_Highland_Travels.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 681499E64F5B047281CDFCF1 /* Pods_Highland_Travels.framework */; };
 		F27D4EBD2CBA66FF00A1EAA5 /* Highland_TravelsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27D4EBC2CBA66FF00A1EAA5 /* Highland_TravelsApp.swift */; };
 		F27D4EBF2CBA66FF00A1EAA5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27D4EBE2CBA66FF00A1EAA5 /* ContentView.swift */; };
 		F27D4EC12CBA670200A1EAA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F27D4EC02CBA670200A1EAA5 /* Assets.xcassets */; };
@@ -38,8 +40,6 @@
 		F27D4EE12CBA747500A1EAA5 /* Highland-Travels-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F27D4EDF2CBA744700A1EAA5 /* Highland-Travels-Info.plist */; };
 		F27D4EE32CBA75B700A1EAA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F27D4EE22CBA75B700A1EAA5 /* LaunchScreen.storyboard */; };
 		F27D4EE82CBA7CAC00A1EAA5 /* AuthHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27D4EE72CBA7CAC00A1EAA5 /* AuthHeader.swift */; };
-		F27D4EED2CBA8CC800A1EAA5 /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = F27D4EEC2CBA8CC800A1EAA5 /* swiftgen.yml */; };
-		F27D4EF02CBA8E3A00A1EAA5 /* XCAssets+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27D4EEF2CBA8E3A00A1EAA5 /* XCAssets+Generated.swift */; };
 		F29D9F822CC39C310034D7BB /* InputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29D9F812CC39C310034D7BB /* InputField.swift */; };
 		F29D9F842CC39D580034D7BB /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29D9F832CC39D580034D7BB /* View+Extension.swift */; };
 		F29D9F862CC3A78C0034D7BB /* HTButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29D9F852CC3A78C0034D7BB /* HTButton.swift */; };
@@ -51,24 +51,23 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		681499E64F5B047281CDFCF1 /* Pods_Highland_Travels.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Highland_Travels.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A005E9A12CF12CC80093E76C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A005E9A42CF12D4D0093E76C /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		A005E9A92CF135F20093E76C /* PillButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillButton.swift; sourceTree = "<group>"; };
+		A07BB4722CF12BB000FBC7EB /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		A0C2D4D82CD76E5900D6C682 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		A0C2D4DC2CD772DB00D6C682 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		A0C2D4DE2CD7754F00D6C682 /* HomeNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNavigationStack.swift; sourceTree = "<group>"; };
-		A0C2D4E02CD7767D00D6C682 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		A0C2D4E22CD776DA00D6C682 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
 		A0C2D4E42CD778A700D6C682 /* ExploreNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreNavigationStack.swift; sourceTree = "<group>"; };
 		A0C2D4E62CD77C9000D6C682 /* HomeRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRoute.swift; sourceTree = "<group>"; };
 		A0C2D4E82CD77CB100D6C682 /* ExploreRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreRoute.swift; sourceTree = "<group>"; };
-		A0C2D4EE2CD789D700D6C682 /* HomeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDetail.swift; sourceTree = "<group>"; };
 		A0C2D4F02CD7922C00D6C682 /* NotificationsNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsNavigationStack.swift; sourceTree = "<group>"; };
 		A0C2D4F22CD7928E00D6C682 /* NotificationRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationRoute.swift; sourceTree = "<group>"; };
 		A0C2D4F42CD792CF00D6C682 /* ProfileRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileRoute.swift; sourceTree = "<group>"; };
 		A0C2D4F62CD7936B00D6C682 /* ProfileNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileNavigationStack.swift; sourceTree = "<group>"; };
 		A0C2D4F82CD798A100D6C682 /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
 		A0C2D4FA2CD7A03900D6C682 /* GenericNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericNavigationStack.swift; sourceTree = "<group>"; };
-		B2C2124D98CAF2C4FB042436 /* Pods-Highland Travels.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Highland Travels.release.xcconfig"; path = "Target Support Files/Pods-Highland Travels/Pods-Highland Travels.release.xcconfig"; sourceTree = "<group>"; };
-		B4332A5989D122EF63963288 /* Pods-Highland Travels.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Highland Travels.debug.xcconfig"; path = "Target Support Files/Pods-Highland Travels/Pods-Highland Travels.debug.xcconfig"; sourceTree = "<group>"; };
 		F27D4EB92CBA66FF00A1EAA5 /* Highland Travels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Highland Travels.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F27D4EBC2CBA66FF00A1EAA5 /* Highland_TravelsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Highland_TravelsApp.swift; sourceTree = "<group>"; };
 		F27D4EBE2CBA66FF00A1EAA5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -85,8 +84,6 @@
 		F27D4EDF2CBA744700A1EAA5 /* Highland-Travels-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Highland-Travels-Info.plist"; sourceTree = "<group>"; };
 		F27D4EE22CBA75B700A1EAA5 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F27D4EE72CBA7CAC00A1EAA5 /* AuthHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthHeader.swift; sourceTree = "<group>"; };
-		F27D4EEC2CBA8CC800A1EAA5 /* swiftgen.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
-		F27D4EEF2CBA8E3A00A1EAA5 /* XCAssets+Generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XCAssets+Generated.swift"; sourceTree = "<group>"; };
 		F29D9F812CC39C310034D7BB /* InputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputField.swift; sourceTree = "<group>"; };
 		F29D9F832CC39D580034D7BB /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
 		F29D9F852CC3A78C0034D7BB /* HTButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTButton.swift; sourceTree = "<group>"; };
@@ -102,39 +99,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFA6B976A8C8FBBB53C4CC45 /* Pods_Highland_Travels.framework in Frameworks */,
+				A005E9A82CF12E460093E76C /* asnycImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0C42579BB0EDD77958E60779 /* Frameworks */ = {
+		A005E9A32CF12D420093E76C /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				681499E64F5B047281CDFCF1 /* Pods_Highland_Travels.framework */,
+				A005E9A42CF12D4D0093E76C /* UserModel.swift */,
 			);
-			name = Frameworks;
+			path = Models;
 			sourceTree = "<group>";
 		};
 		A0C2D4D62CD76CFB00D6C682 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
 				A0C2D4FE2CD7A1CB00D6C682 /* Profile */,
-				A0C2D4D72CD76E2E00D6C682 /* Home */,
+				A0C2D4D72CD76E2E00D6C682 /* HomeView */,
 				F27D4EE62CBA7C8500A1EAA5 /* Auth */,
 				F27D4EF12CBA8FC700A1EAA5 /* App */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
 		};
-		A0C2D4D72CD76E2E00D6C682 /* Home */ = {
+		A0C2D4D72CD76E2E00D6C682 /* HomeView */ = {
 			isa = PBXGroup;
 			children = (
-				A0C2D4E02CD7767D00D6C682 /* HomeView.swift */,
-				A0C2D4EE2CD789D700D6C682 /* HomeDetail.swift */,
+				A005E9A12CF12CC80093E76C /* HomeView.swift */,
+				A07BB4722CF12BB000FBC7EB /* HomeViewModel.swift */,
 			);
-			path = Home;
+			path = HomeView;
 			sourceTree = "<group>";
 		};
 		A0C2D4DB2CD772B400D6C682 /* Navigation */ = {
@@ -182,14 +179,11 @@
 			isa = PBXGroup;
 			children = (
 				F2F523392CBBC8E3007A074D /* Localizable.xcstrings */,
-				F27D4EEC2CBA8CC800A1EAA5 /* swiftgen.yml */,
 				F27D4EE22CBA75B700A1EAA5 /* LaunchScreen.storyboard */,
 				F27D4EDF2CBA744700A1EAA5 /* Highland-Travels-Info.plist */,
 				F27D4ECF2CBA6CD200A1EAA5 /* shared */,
 				F27D4EBB2CBA66FF00A1EAA5 /* Highland Travels */,
 				F27D4EBA2CBA66FF00A1EAA5 /* Products */,
-				FD0B3C6B2A2E2F07C60CF39D /* Pods */,
-				0C42579BB0EDD77958E60779 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -204,6 +198,7 @@
 		F27D4EBB2CBA66FF00A1EAA5 /* Highland Travels */ = {
 			isa = PBXGroup;
 			children = (
+				A005E9A32CF12D420093E76C /* Models */,
 				A0C2D4DB2CD772B400D6C682 /* Navigation */,
 				A0C2D4D62CD76CFB00D6C682 /* Presentation */,
 				F27D4EC22CBA670200A1EAA5 /* Preview Content */,
@@ -235,7 +230,6 @@
 		F27D4ECF2CBA6CD200A1EAA5 /* shared */ = {
 			isa = PBXGroup;
 			children = (
-				F27D4EEE2CBA8DCF00A1EAA5 /* Generated */,
 				F27D4EC02CBA670200A1EAA5 /* Assets.xcassets */,
 				F27D4ECA2CBA696000A1EAA5 /* Extensions */,
 				F27D4ED02CBA6CDA00A1EAA5 /* fonts */,
@@ -266,14 +260,6 @@
 			path = Auth;
 			sourceTree = "<group>";
 		};
-		F27D4EEE2CBA8DCF00A1EAA5 /* Generated */ = {
-			isa = PBXGroup;
-			children = (
-				F27D4EEF2CBA8E3A00A1EAA5 /* XCAssets+Generated.swift */,
-			);
-			path = Generated;
-			sourceTree = "<group>";
-		};
 		F27D4EF12CBA8FC700A1EAA5 /* App */ = {
 			isa = PBXGroup;
 			children = (
@@ -290,17 +276,9 @@
 			children = (
 				F29D9F812CC39C310034D7BB /* InputField.swift */,
 				F29D9F852CC3A78C0034D7BB /* HTButton.swift */,
+				A005E9A92CF135F20093E76C /* PillButton.swift */,
 			);
 			path = Common;
-			sourceTree = "<group>";
-		};
-		FD0B3C6B2A2E2F07C60CF39D /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B4332A5989D122EF63963288 /* Pods-Highland Travels.debug.xcconfig */,
-				B2C2124D98CAF2C4FB042436 /* Pods-Highland Travels.release.xcconfig */,
-			);
-			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,8 +288,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F27D4EC72CBA670200A1EAA5 /* Build configuration list for PBXNativeTarget "Highland Travels" */;
 			buildPhases = (
-				91DA9837C206D5B37D3C1772 /* [CP] Check Pods Manifest.lock */,
-				F27D4EE92CBA862C00A1EAA5 /* SwiftGen */,
 				F27D4EB52CBA66FF00A1EAA5 /* Sources */,
 				F27D4EB62CBA66FF00A1EAA5 /* Frameworks */,
 				F27D4EB72CBA66FF00A1EAA5 /* Resources */,
@@ -350,6 +326,9 @@
 				es,
 			);
 			mainGroup = F27D4EB02CBA66FF00A1EAA5;
+			packageReferences = (
+				A005E9A62CF12E450093E76C /* XCRemoteSwiftPackageReference "asyncImage" */,
+			);
 			productRefGroup = F27D4EBA2CBA66FF00A1EAA5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -373,7 +352,6 @@
 				F27D4EDB2CBA6D8E00A1EAA5 /* OpenSans-Light.ttf in Resources */,
 				F27D4ED92CBA6D8E00A1EAA5 /* OpenSans-SemiBold.ttf in Resources */,
 				F27D4EC12CBA670200A1EAA5 /* Assets.xcassets in Resources */,
-				F27D4EED2CBA8CC800A1EAA5 /* swiftgen.yml in Resources */,
 				F27D4EDA2CBA6D8E00A1EAA5 /* OpenSans-Regular.ttf in Resources */,
 				F27D4ED82CBA6D8E00A1EAA5 /* OpenSans-ExtraBold.ttf in Resources */,
 			);
@@ -381,63 +359,22 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		91DA9837C206D5B37D3C1772 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Highland Travels-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F27D4EE92CBA862C00A1EAA5 /* SwiftGen */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = SwiftGen;
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "if [[ -f \"${PODS_ROOT}/SwiftGen/bin/swiftgen\" ]]; then\n  \"${PODS_ROOT}/SwiftGen/bin/swiftgen\"\nelse\n  echo \"warning: SwiftGen is not installed. Run 'pod install --repo-update' to install it.\"\nfi \n";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		F27D4EB52CBA66FF00A1EAA5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A005E9AA2CF135F20093E76C /* PillButton.swift in Sources */,
 				A0C2D4F32CD7928E00D6C682 /* NotificationRoute.swift in Sources */,
+				A005E9A22CF12CC80093E76C /* HomeView.swift in Sources */,
 				F2F523312CBBC458007A074D /* String+Extension.swift in Sources */,
+				A005E9A52CF12D540093E76C /* UserModel.swift in Sources */,
 				F27D4EBF2CBA66FF00A1EAA5 /* ContentView.swift in Sources */,
 				A0C2D4E92CD77CB100D6C682 /* ExploreRoute.swift in Sources */,
 				F27D4EBD2CBA66FF00A1EAA5 /* Highland_TravelsApp.swift in Sources */,
 				A0C2D4DF2CD7754F00D6C682 /* HomeNavigationStack.swift in Sources */,
 				A0C2D4E52CD778A700D6C682 /* ExploreNavigationStack.swift in Sources */,
 				F29D9F882CC3B86F0034D7BB /* AuthView.swift in Sources */,
-				A0C2D4E12CD7767D00D6C682 /* HomeView.swift in Sources */,
 				A0C2D4F52CD792CF00D6C682 /* ProfileRoute.swift in Sources */,
 				A0C2D4D92CD76E5900D6C682 /* MainTabView.swift in Sources */,
 				A0C2D4F92CD798A100D6C682 /* SessionManager.swift in Sources */,
@@ -446,14 +383,13 @@
 				F29D9F822CC39C310034D7BB /* InputField.swift in Sources */,
 				A0C2D4E72CD77C9000D6C682 /* HomeRoute.swift in Sources */,
 				A0C2D4E32CD776DA00D6C682 /* Route.swift in Sources */,
-				A0C2D4EF2CD789D700D6C682 /* HomeDetail.swift in Sources */,
 				A0C2D4DD2CD772DB00D6C682 /* Router.swift in Sources */,
 				F27D4ECE2CBA6C0700A1EAA5 /* Font+Extension.swift in Sources */,
 				F2F523332CBBC4D6007A074D /* UIApplication+Extension.swift in Sources */,
 				F29D9F862CC3A78C0034D7BB /* HTButton.swift in Sources */,
 				F29D9F842CC39D580034D7BB /* View+Extension.swift in Sources */,
 				F27D4EE82CBA7CAC00A1EAA5 /* AuthHeader.swift in Sources */,
-				F27D4EF02CBA8E3A00A1EAA5 /* XCAssets+Generated.swift in Sources */,
+				A07BB4732CF12BB000FBC7EB /* HomeViewModel.swift in Sources */,
 				A0C2D4F12CD7922C00D6C682 /* NotificationsNavigationStack.swift in Sources */,
 				A0C2D4FB2CD7A03900D6C682 /* GenericNavigationStack.swift in Sources */,
 				F27D4ECC2CBA699500A1EAA5 /* Color+Extennsion.swift in Sources */,
@@ -584,7 +520,6 @@
 		};
 		F27D4EC82CBA670200A1EAA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B4332A5989D122EF63963288 /* Pods-Highland Travels.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -618,7 +553,6 @@
 		};
 		F27D4EC92CBA670200A1EAA5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B2C2124D98CAF2C4FB042436 /* Pods-Highland Travels.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -672,6 +606,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A005E9A62CF12E450093E76C /* XCRemoteSwiftPackageReference "asyncImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/baskurthalit/asyncImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A005E9A72CF12E460093E76C /* asnycImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A005E9A62CF12E450093E76C /* XCRemoteSwiftPackageReference "asyncImage" */;
+			productName = asnycImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F27D4EB12CBA66FF00A1EAA5 /* Project object */;
 }

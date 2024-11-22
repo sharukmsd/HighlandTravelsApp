@@ -56,11 +56,11 @@ struct MainTabView: View {
                     .tabItem {
                         tab.icon
                             .renderingMode(.template)
-                            .foregroundStyle(router.selectedTab == tab ? Color.primary : Color.subtleText)
+                            .foregroundStyle(router.selectedTab == tab ? Color.appPrimary : Color.subtleText)
                     }
             }
         }
-        .accentColor(Asset.primary.swiftUIColor)
+        .accentColor(Color.appPrimary)
     }
 }
 

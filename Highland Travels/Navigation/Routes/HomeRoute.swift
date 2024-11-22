@@ -17,9 +17,9 @@ extension Router {
     @ViewBuilder func view(for route: HomeRoute) -> some View {
         switch route {
         case .list:
-            HomeView()
+            HomeView(viewModel: HomeViewModel())
         case .detail:
-            HomeDetail()
+            EmptyView()
         }
     }
 }

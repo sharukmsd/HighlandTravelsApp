@@ -4,12 +4,12 @@
 <dict>
 	<key>UIAppFonts</key>
 	<array>
-		<string>fonts/OpenSans-Bold</string>
-		<string>fonts/OpenSans-ExtraBold</string>
-		<string>fonts/OpenSans-Light</string>
-		<string>fonts/OpenSans-Medium</string>
-		<string>fonts/OpenSans-Regular</string>
-		<string>shared/fonts/OpenSans-SemiBold.ttf</string>
+		<string>OpenSans-Bold.ttf</string>
+		<string>OpenSans-ExtraBold.ttf</string>
+		<string>OpenSans-Light.ttf</string>
+		<string>OpenSans-Medium.ttf</string>
+		<string>OpenSans-Regular.ttf</string>
+		<string>OpenSans-SemiBold.ttf</string>
 	</array>
 </dict>
 </plist>

@@ -89,7 +89,7 @@ struct AuthView<T>: View where T: AuthViewModelType {
                         } label: {
                             Text (vm.viewType.questionText.1)
                                 .buttonText()
-                                .foregroundStyle(Asset.secondary.swiftUIColor)
+                                .foregroundStyle(.appSecondary)
                         }
                     }
                     .padding(.vertical, 48)

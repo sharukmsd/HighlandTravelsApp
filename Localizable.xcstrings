@@ -10,15 +10,6 @@
     "Forgot Password?" : {
 
     },
-    "Go back" : {
-
-    },
-    "Go forward" : {
-
-    },
-    "Go to detail" : {
-
-    },
     "Hello, world!" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -35,6 +26,9 @@
           }
         }
       }
+    },
+    "Let's Explore the World!" : {
+
     },
     "List Explore" : {
 
@@ -60,12 +54,6 @@
       }
     },
     "OR" : {
-
-    },
-    "Pop to root" : {
-
-    },
-    "Present full screen cover" : {
 
     },
     "Profile Detail" : {

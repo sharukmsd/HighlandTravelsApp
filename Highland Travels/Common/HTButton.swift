@@ -23,7 +23,7 @@ enum HTButtonType {
     var background: Color {
         switch self {
         case .primary:
-            return Asset.primary.swiftUIColor
+            return .appPrimary
         case .secondary:
             return .white
         }
