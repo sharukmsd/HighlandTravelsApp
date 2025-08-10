@@ -13,3 +13,9 @@
 
 ## Status
 #### Currently a side project in development. 🚧 😉
+
+## 👑 Top Contributors (by Total Changes)
+
+<!-- CONTRIBUTORS_START -->
+Loading...
+<!-- CONTRIBUTORS_END -->
