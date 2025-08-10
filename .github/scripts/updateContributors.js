@@ -6,14 +6,27 @@ const repo = process.env.GITHUB_REPOSITORY.split("/")[1];
 const token = process.env.GITHUB_TOKEN;
 
 async function getContributors() {
-  const res = await axios.get(`https://api.github.com/repos/${owner}/${repo}/stats/contributors`, {
-    headers: { Authorization: `token ${token}` }
-  });
-  return res.data.map(user => ({
-    login: user.author.login,
-    avatar: user.author.avatar_url,
-    totalChanges: user.weeks.reduce((sum, w) => sum + w.a + w.d, 0)
-  }));
+  for (let attempt = 1; attempt <= 10; attempt++) {
+    const res = await axios.get(
+      `https://api.github.com/repos/${owner}/${repo}/stats/contributors`,
+      {
+        headers: { Authorization: `token ${token}` }
+      }
+    );
+
+    if (Array.isArray(res.data)) {
+      return res.data.map(user => ({
+        login: user.author.login,
+        avatar: user.author.avatar_url,
+        totalChanges: user.weeks.reduce((sum, w) => sum + w.a + w.d, 0)
+      }));
+    }
+
+    console.log(`GitHub is still processing stats... attempt ${attempt}/10`);
+    await new Promise(resolve => setTimeout(resolve, 5000)); // wait 5 sec
+  }
+
+  throw new Error("GitHub stats not ready after multiple attempts");
 }
 
 function updateReadme(contributors) {
